@@ -6,3 +6,5 @@
  * @returns {boolean} Is the string a palindrome?
  */
 export const isPalindrome = (toCheck = '') => {};
+let reversed = ''
+for(char of toChe)

@@ -8,7 +8,8 @@
 export const removeCharacters = (text = '', toRemove = '') => {
   let newText = text;
   for (const character of toRemove) {
-    newText = newText.replaceAll(character, '');
+    newText = newText.replaceAll(character.toLowerCase(), '');
+    newText = newText.replaceAll(character.toUpperCase(), '');
   }
   return newText;
 };
